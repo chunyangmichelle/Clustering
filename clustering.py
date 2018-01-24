@@ -1,12 +1,12 @@
 #how to run:
 # in the command line, first "cd" to the folder where the iris.data and ,py is
-# and next to it, write python yang_chun_clustering.py iris.data k
+# and next to it, write python clustering.py iris.data k
 # the output txt would also be shown in the same folder
 
 import sys
 import heapq
 
-#file="C:/Users/user/Desktop/Inf553/HW4/iris.data"
+#file="C:/Users/user/Desktop/iris.data"
 file=sys.argv[1]
 lines=open(file).readlines()
 datas=[line.strip().split(",") for line in lines if line.strip()]
